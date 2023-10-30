@@ -1,0 +1,36 @@
+---
+# which keywords/keyphrases are typically used to start a certain section?:
+
+# nodes:
+
+# Beurteilung / Diagnose:
+# Einige Berichte behandeln mehrere Proben.
+# Pro Probe ensteht manchmal je eine Beurteilung:
+# Vorläufige Beurteilung gemäß der Gefrierschnittführung: ... Beurteilung am Paraffinmaterial:
+# -> also die gefundenen Diagnose-sections am besten appenden...
+# Problematisch: Sätze wie:
+# "Zur endgültigen >Beurteilung< der Tumorformel müssen noch weitere Färbungen erfolgen, da ..."
+# werden als conclusion erkannt...
+
+clinical_infos:
+  - 'Klinische Angaben:'
+sample_infos:
+  - "Wir erhielten"
+  - "Eingesandt wurde:"
+  - "Zugesandt wurde:"
+comment: # only used to find the end of a description-secetion.
+  - "Kommentar"
+description:
+  - "Lichtmikroskopie:"
+  - "Mikroskopie:"
+  - "Histologie:"
+follow-up-report:
+  - "Nachbericht:"
+  - "Immunhistochemie:"
+conclusion:
+  - "Beurteilung:"
+  - "Begutachtung:"
+  - "Beurteilung"
+regards:
+  - "Mit freundlichen"
+  - "Prof."
